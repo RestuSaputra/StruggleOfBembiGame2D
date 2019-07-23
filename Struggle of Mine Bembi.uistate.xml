@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <layout order="0">Stage_1</layout>
+        <layout active="1" order="2">Stage_2</layout>
+        <layout order="4">Stage_3</layout>
+        <event-sheet order="1">sheet 1</event-sheet>
+        <event-sheet order="3">sheet 2</event-sheet>
+        <event-sheet order="5">sheet_3</event-sheet>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="1" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="1">
+        <family expanded="1" name="kontrol" />
+        <family expanded="1" name="tombol" />
+    </families-expanded>
+    <folders-expanded>
+        <folder expanded="1" path="object-folder/" />
+        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="1" path="event-folder/" />
+        <folder expanded="1" path="file-folder/" />
+        <folder expanded="1" path="sound-folder/" />
+        <folder expanded="1" path="music-folder/" />
+        <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/bg_stage1/" />
+        <folder expanded="1" path="animation-folder/tanah/" />
+        <folder expanded="1" path="animation-folder/tanah_/" />
+        <folder expanded="1" path="animation-folder/tanah_satuPS/" />
+        <folder expanded="1" path="animation-folder/tanahBawah_stage1/" />
+        <folder expanded="1" path="animation-folder/tanah_sambung/" />
+        <folder expanded="1" path="animation-folder/tanah_gantung/" />
+        <folder expanded="1" path="animation-folder/bembi/" />
+        <folder expanded="1" path="animation-folder/tanah_2/" />
+        <folder expanded="1" path="animation-folder/tanahAtas_stage1/" />
+        <folder expanded="1" path="animation-folder/tanahProperties_stage1/" />
+        <folder expanded="1" path="animation-folder/air/" />
+        <folder expanded="1" path="animation-folder/tanah_atas_solid2/" />
+        <folder expanded="1" path="animation-folder/rumput/" />
+        <folder expanded="1" path="animation-folder/batu/" />
+        <folder expanded="1" path="animation-folder/batu2/" />
+        <folder expanded="1" path="animation-folder/tong_1/" />
+        <folder expanded="1" path="animation-folder/tong_2/" />
+        <folder expanded="1" path="animation-folder/pohon/" />
+        <folder expanded="1" path="animation-folder/preman/" />
+        <folder expanded="1" path="animation-folder/buku/" />
+        <folder expanded="1" path="animation-folder/binder/" />
+        <folder expanded="1" path="animation-folder/rumput2/" />
+        <folder expanded="1" path="animation-folder/rumput3/" />
+        <folder expanded="1" path="animation-folder/batu3/" />
+        <folder expanded="1" path="animation-folder/bg_stage2/" />
+        <folder expanded="1" path="animation-folder/bembi2/" />
+        <folder expanded="1" path="animation-folder/bg_stage3/" />
+        <folder expanded="1" path="animation-folder/bembi3/" />
+        <folder expanded="1" path="animation-folder/hati/" />
+        <folder expanded="1" path="animation-folder/tembok/" />
+        <folder expanded="1" path="animation-folder/Sprite2/" />
+        <folder expanded="1" path="animation-folder/rumah1/" />
+        <folder expanded="1" path="animation-folder/lantai/" />
+        <folder expanded="1" path="animation-folder/tanahAtas_stage2/" />
+        <folder expanded="1" path="animation-folder/rumah2/" />
+        <folder expanded="1" path="animation-folder/papanScore/" />
+        <folder expanded="1" path="animation-folder/papan_ucapan/" />
+        <folder expanded="1" path="animation-folder/kanan/" />
+        <folder expanded="1" path="animation-folder/kiri/" />
+        <folder expanded="1" path="animation-folder/atas/" />
+        <folder expanded="1" path="animation-folder/restart/" />
+        <folder expanded="1" path="animation-folder/batas/" />
+        <folder expanded="1" path="animation-folder/nextLevel/" />
+        <folder expanded="1" path="animation-folder/bok/" />
+        <folder expanded="1" path="animation-folder/bata/" />
+        <folder expanded="1" path="animation-folder/tanah2/" />
+        <folder expanded="1" path="animation-folder/box/" />
+        <folder expanded="1" path="animation-folder/darah/" />
+    </folders-expanded>
+</c2uistate>

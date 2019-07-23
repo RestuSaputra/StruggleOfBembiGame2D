@@ -1,0 +1,1142 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>Struggle of Mine Bembi</name>
+    <description>Aplikasi tentang Perjuangan seorang siswa yang hendak menempuh pendidikan</description>
+    <version>1.0.0.0</version>
+    <author>OLDSquad</author>
+    <author-email>restusaputraxxxayu@gmail.com</author-email>
+    <author-website>http://</author-website>
+    <app-id>com.oldsquad.struggleofmine</app-id>
+    <unique-id>2m2oqhlgof90t</unique-id>
+    <saved-with-version>24400</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Spritefont2" version="1">Sprite font</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Flash" version="1">Flash</behavior>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="Rotate" version="1">Rotate</behavior>
+        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
+        <behavior author="Scirra" id="jumpthru" version="1">Jump-thru</behavior>
+        <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1800</width>
+        <height>900</height>
+    </window-size>
+    <pixel-rounding>1</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Scale inner</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Percentage text</prop>
+        <prop name="Orientations">Landscape</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="bg_stage1" sid="222661582622020">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="400991772695943" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500545" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset background\bg.png">
+                        <collision-poly>
+                            <point x="0.000579374" y="0.00109051" />
+                            <point x="0.999421" y="0.00109051" />
+                            <point x="0.999421" y="0.998909" />
+                            <point x="0.000579374" y="0.998909" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tanah" sid="383790302795545">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="158249077102304">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="853586559182487" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset tanah\tanah2.png">
+                        <collision-poly>
+                            <point x="0.00588235" y="0.00588235" />
+                            <point x="1" y="0" />
+                            <point x="0.994118" y="0.994118" />
+                            <point x="0.00588235" y="0.994118" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tanah_" sid="758371999950954">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="720638322150955" speed="5">
+                    <frame duration="1" hotspotX="0.500023" hotspotY="0.5" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset tanah\tanah part 1\tanah_1.1.png">
+                        <collision-poly>
+                            <point x="4.69814e-005" y="0.000693481" />
+                            <point x="0.999953" y="0.000693481" />
+                            <point x="0.999953" y="0.999306" />
+                            <point x="4.69814e-005" y="0.999306" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tanah_satuPS" sid="993687451107590">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="201399561770233" speed="5">
+                    <frame duration="1" hotspotX="0.500023" hotspotY="0.5" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset tanah\tanah part 1\tanah_satuPS.png">
+                        <collision-poly>
+                            <point x="4.69814e-005" y="0.000693481" />
+                            <point x="0.999953" y="0.000693481" />
+                            <point x="0.999953" y="0.999306" />
+                            <point x="4.69814e-005" y="0.999306" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tanahBawah_stage1" sid="713182104957365">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="663735982310763">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="855783576417877" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset tanah\tanah part 1\tanah_1 bawah.png">
+                        <collision-poly>
+                            <point x="0.0208745" y="0" />
+                            <point x="0.986178" y="0" />
+                            <point x="0.985613" y="1" />
+                            <point x="0.0208745" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tanah_sambung" sid="300710497972311">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="902312704432283">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="448780055701033" speed="5">
+                    <frame duration="1" hotspotX="0.500141" hotspotY="0.5" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset tanah\tanah part 1\tanah_1 bawah.png">
+                        <collision-poly>
+                            <point x="0.0152327" y="0" />
+                            <point x="0.987024" y="0" />
+                            <point x="0.987306" y="1" />
+                            <point x="0.0157969" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tanah_gantung" sid="529333224327837">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Jumpthru" sid="274604017538565">
+                    <behavior id="jumpthru" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="574747224519373" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset tanah\tanah part 1\tanah_gantung1.png">
+                        <collision-poly>
+                            <point x="0.2075" y="0" />
+                            <point x="0.7825" y="0" />
+                            <point x="0.825" y="1" />
+                            <point x="0.1925" y="0.991667" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bembi" sid="657869114036220">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Platform" sid="962087156680814">
+                    <behavior id="Platform" />
+                </behavior-type>
+                <behavior-type name="ScrollTo" sid="470619355846268">
+                    <behavior id="scrollto" />
+                </behavior-type>
+                <behavior-type name="Flash" sid="441208529488668">
+                    <behavior id="Flash" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="1" name="diam" pingpong="0" repeatcount="1" repeatto="0" sid="322369340127778" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\sd2\diam\diam1.png" />
+                </animation>
+                <animation framecount="9" loop="1" name="jalan" pingpong="0" repeatcount="1" repeatto="0" sid="200141708933712" speed="12">
+                    <frame duration="1" hotspotX="0.501182" hotspotY="0.5" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\sd2\jalan\jalan1.png" />
+                    <frame duration="1" hotspotX="0.501247" hotspotY="0.5" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\sd2\jalan\jalan2.png" />
+                    <frame duration="1" hotspotX="0.501333" hotspotY="0.500586" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\sd2\jalan\jalan3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\sd2\jalan\jalan4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\sd2\jalan\jalan5.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500603" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\sd2\jalan\jalan6.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\sd2\jalan\jalan7.png" />
+                    <frame duration="1" hotspotX="0.501333" hotspotY="0.5" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\sd2\jalan\jalan8.png" />
+                    <frame duration="1" hotspotX="0.501134" hotspotY="0.5" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\sd2\jalan\jalan9.png" />
+                </animation>
+                <animation framecount="5" loop="0" name="jongkok" pingpong="0" repeatcount="1" repeatto="0" sid="102700154103172" speed="2">
+                    <frame duration="1" hotspotX="0.501057" hotspotY="0.5" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\sd2\merunduk\merunduk_1.png" />
+                    <frame duration="1" hotspotX="0.501057" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501057" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501057" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501057" hotspotY="0.5" />
+                </animation>
+                <animation framecount="7" loop="1" name="lompat" pingpong="0" repeatcount="1" repeatto="0" sid="323172728853993" speed="10">
+                    <frame duration="1" hotspotX="0.501075" hotspotY="0.5" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\sd2\lompat\lompat1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\sd2\lompat\lompat2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\sd2\lompat\lompat3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500629" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\sd2\lompat\lompat4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\sd2\lompat\lompat5.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500565" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\sd2\lompat\lompat6.png" />
+                    <frame duration="1" hotspotX="0.500963" hotspotY="0.500574" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\sd2\lompat\lompat7.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tanah_2" sid="175586277761843">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="495842297792062" speed="5">
+                    <frame duration="1" hotspotX="0.500024" hotspotY="0.5" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset tanah\tanah part 1\tanah_1.2.png">
+                        <collision-poly>
+                            <point x="4.70345e-005" y="0.00280899" />
+                            <point x="0.999953" y="0.00280899" />
+                            <point x="0.999953" y="0.997191" />
+                            <point x="4.70345e-005" y="0.997191" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tanahAtas_stage1" sid="870496453700728">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="619423976983624">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="954757442314303" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset tanah\tanah part 1\tanah_atas_solid.png">
+                        <collision-poly>
+                            <point x="0.0138095" y="0" />
+                            <point x="0.980476" y="0" />
+                            <point x="0.980475" y="0.942857" />
+                            <point x="0.0142857" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tanahProperties_stage1" sid="809968916434476">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="843374960437049" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.514286" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset tanah\tanah part 1\tanah_atas_trans.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Keyboard" sid="738828088188172">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="air" sid="114553640949614">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="442987147334074" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505882" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset air kali\air1.png">
+                        <collision-poly>
+                            <point x="0.00588235" y="0.0117647" />
+                            <point x="0.5" y="0.0941176" />
+                            <point x="0.958824" y="0.0823529" />
+                            <point x="1" y="0.494118" />
+                            <point x="0.994118" y="0.988235" />
+                            <point x="0.00588235" y="0.988235" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tanah_atas_solid2" sid="639564026028715">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Jumpthru" sid="487040043780615">
+                    <behavior id="jumpthru" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="877518604145966" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.514286" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset tanah\tanah part 1\tanah_atas_solid.png">
+                        <collision-poly>
+                            <point x="0.0590476" y="0" />
+                            <point x="0.902858" y="0" />
+                            <point x="0.902381" y="1" />
+                            <point x="0.0595238" y="0.971429" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="rumput" sid="321623698548791">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="730193254311680" speed="5">
+                    <frame duration="1" hotspotX="0.500914" hotspotY="0.504274" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset rumput\rumput1.png">
+                        <collision-poly>
+                            <point x="0.126143" y="0.589744" />
+                            <point x="0.499086" y="0.230769" />
+                            <point x="0.868373" y="0.615385" />
+                            <point x="0.939671" y="0.495726" />
+                            <point x="0.943327" y="0.735043" />
+                            <point x="0.499086" y="0.931624" />
+                            <point x="0.0767825" y="0.641026" />
+                            <point x="0.0255942" y="0.495726" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="batu" sid="630069264898396">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="102363689126009" speed="5">
+                    <frame duration="1" hotspotX="0.500673" hotspotY="0.501385" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset pecah\batu.png">
+                        <collision-poly>
+                            <point x="0.166891" y="0.34349" />
+                            <point x="0.499327" y="0.0138504" />
+                            <point x="0.864065" y="0.279778" />
+                            <point x="0.955585" y="0.498615" />
+                            <point x="0.9179" y="0.831025" />
+                            <point x="0.499327" y="0.941828" />
+                            <point x="0.025572" y="0.947368" />
+                            <point x="0.110363" y="0.498615" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="batu2" sid="332656614429234">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="278968128929581" speed="5">
+                    <frame duration="1" hotspotX="0.500673" hotspotY="0.501385" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset pecah\batu.png">
+                        <collision-poly>
+                            <point x="0.166891" y="0.34349" />
+                            <point x="0.499327" y="0.0138504" />
+                            <point x="0.864065" y="0.279778" />
+                            <point x="0.955585" y="0.498615" />
+                            <point x="0.9179" y="0.831025" />
+                            <point x="0.499327" y="0.941828" />
+                            <point x="0.025572" y="0.947368" />
+                            <point x="0.110363" y="0.498615" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tong_1" sid="472576367602786">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Jumpthru" sid="297169001260505">
+                    <behavior id="jumpthru" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="943634922354777" speed="5">
+                    <frame duration="1" hotspotX="0.501767" hotspotY="0.5" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset pecah\tong.png">
+                        <collision-poly>
+                            <point x="0.356891" y="0.2" />
+                            <point x="0.498233" y="0.0030303" />
+                            <point x="0.607774" y="0.166667" />
+                            <point x="0.770318" y="0.521212" />
+                            <point x="0.915194" y="0.927273" />
+                            <point x="0.498233" y="0.993939" />
+                            <point x="0.0954064" y="0.918182" />
+                            <point x="0.257951" y="0.50303" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tong_2" sid="476383553418798">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Jumpthru" sid="346890922004372">
+                    <behavior id="jumpthru" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="737625755335302" speed="5">
+                    <frame duration="1" hotspotX="0.501767" hotspotY="0.5" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset pecah\tong.png">
+                        <collision-poly>
+                            <point x="0.254417" y="0.030303" />
+                            <point x="0.498233" y="0.0030303" />
+                            <point x="0.787986" y="0.0515151" />
+                            <point x="0.883393" y="0.475758" />
+                            <point x="0.915194" y="0.927273" />
+                            <point x="0.498233" y="0.993939" />
+                            <point x="0.0954064" y="0.918182" />
+                            <point x="0.102474" y="0.490909" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pohon" sid="742912675349209">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="365932728389602" speed="5">
+                    <frame duration="1" hotspotX="0.501048" hotspotY="0.50073" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset pecah\pohon.png">
+                        <collision-poly>
+                            <point x="0.125786" y="0.0875912" />
+                            <point x="0.498952" y="0.0832117" />
+                            <point x="0.72956" y="0.188321" />
+                            <point x="0.981132" y="0.49927" />
+                            <point x="0.408805" y="0.588321" />
+                            <point x="0.498952" y="0.426277" />
+                            <point x="0.280922" y="0.80438" />
+                            <point x="0.165618" y="0.49927" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type global="1" name="preman" sid="235345326313683">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Platform" sid="481858036473141">
+                    <behavior id="Platform" />
+                </behavior-type>
+                <behavior-type name="Sine" sid="782166109710874">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="diam" pingpong="0" repeatcount="1" repeatto="0" sid="814107016961521" speed="5">
+                    <frame duration="1" hotspotX="0.501433" hotspotY="0.500491" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset preman\preman_diam.png">
+                        <collision-poly>
+                            <point x="0.326648" y="0.0961727" />
+                            <point x="0.498567" y="0.00294406" />
+                            <point x="0.767908" y="0.063788" />
+                            <point x="0.934097" y="0.499509" />
+                            <point x="0.925501" y="0.974485" />
+                            <point x="0.498567" y="1" />
+                            <point x="0.547278" y="0.812561" />
+                            <point x="0.472779" y="0.499509" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="2" loop="0" name="tusuk" pingpong="0" repeatcount="1" repeatto="0" sid="326091664975194" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500493" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset preman\preman_tusuk1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500488" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset preman\preman_tusuk2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="buku" sid="138838805718021">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Rotate" sid="130335088545217">
+                    <behavior id="Rotate" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="992957703579393" speed="5">
+                    <frame duration="1" hotspotX="0.500931" hotspotY="0.5" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\properties\buku.png">
+                        <collision-poly>
+                            <point x="0.124767" y="0.237589" />
+                            <point x="0.499069" y="0.0460993" />
+                            <point x="0.921788" y="0.148936" />
+                            <point x="0.970205" y="0.5" />
+                            <point x="0.856611" y="0.72695" />
+                            <point x="0.499069" y="0.957447" />
+                            <point x="0.0782123" y="0.851064" />
+                            <point x="0.0111732" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="life" sid="332804039084872">
+            <plugin id="Text" />
+            <instance-variables>
+                <instance-variable name="type" sid="887315991239899" type="string" />
+            </instance-variables>
+        </object-type>
+        <object-type name="binder" sid="843187321557621">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="501063894309303" speed="5">
+                    <frame duration="1" hotspotX="0.501171" hotspotY="0.501285" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\properties\binder.png">
+                        <collision-poly>
+                            <point x="0.00234192" y="0.00257069" />
+                            <point x="0.498829" y="0.174807" />
+                            <point x="0.997658" y="0.00257069" />
+                            <point x="1" y="0.498715" />
+                            <point x="0.866511" y="0.85347" />
+                            <point x="0.498829" y="0.997429" />
+                            <point x="0.133489" y="0.85347" />
+                            <point x="0" y="0.498715" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="score" sid="634738863395821">
+            <plugin id="Text" />
+            <instance-variables>
+                <instance-variable name="type" sid="604156290363061" type="string" />
+            </instance-variables>
+        </object-type>
+        <object-type name="SpriteFont" sid="600219994288792">
+            <plugin id="Spritefont2" />
+            <texture />
+        </object-type>
+        <object-type name="rumput2" sid="207875687780183">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="572843339449926" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501672" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset pecah\rumput1.png">
+                        <collision-poly>
+                            <point x="0.124413" y="0.177258" />
+                            <point x="0.5" y="0.207358" />
+                            <point x="0.755869" y="0.347826" />
+                            <point x="0.971831" y="0.498328" />
+                            <point x="0.962441" y="0.946488" />
+                            <point x="0.5" y="0.986622" />
+                            <point x="0.0234742" y="0.966555" />
+                            <point x="0.0117371" y="0.498328" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="rumput3" sid="318738273670702">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="398674675005669" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501672" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset pecah\rumput1.png">
+                        <collision-poly>
+                            <point x="0.988263" y="0.498328" />
+                            <point x="0.976526" y="0.966555" />
+                            <point x="0.5" y="0.986622" />
+                            <point x="0.0375587" y="0.946488" />
+                            <point x="0.028169" y="0.498328" />
+                            <point x="0.244131" y="0.347826" />
+                            <point x="0.5" y="0.207358" />
+                            <point x="0.875587" y="0.177258" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="batu3" sid="681816588414056">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="960755933015675" speed="5">
+                    <frame duration="1" hotspotX="0.500673" hotspotY="0.501385" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset pecah\batu.png">
+                        <collision-poly>
+                            <point x="0.166891" y="0.34349" />
+                            <point x="0.499327" y="0.0138504" />
+                            <point x="0.864065" y="0.279778" />
+                            <point x="0.955585" y="0.498615" />
+                            <point x="0.9179" y="0.831025" />
+                            <point x="0.499327" y="0.941828" />
+                            <point x="0.025572" y="0.947368" />
+                            <point x="0.110363" y="0.498615" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text" sid="371035781274626">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="bg_stage2" sid="352859484475960">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="937467464873855" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset background\bg stage 2\bg_2_1.png">
+                        <collision-poly>
+                            <point x="0.000536769" y="0.00112867" />
+                            <point x="0.999463" y="0.00112867" />
+                            <point x="0.999463" y="0.998871" />
+                            <point x="0.000536769" y="0.998871" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bembi2" sid="918485282101861">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="ScrollTo" sid="326349578995008">
+                    <behavior id="scrollto" />
+                </behavior-type>
+                <behavior-type name="Platform" sid="898285809655085">
+                    <behavior id="Platform" />
+                </behavior-type>
+                <behavior-type name="Flash" sid="563528266063196">
+                    <behavior id="Flash" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="1" name="diam" pingpong="0" repeatcount="1" repeatto="0" sid="365814898706355" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\smp\diam\diam_1.png">
+                        <collision-poly>
+                            <point x="0.117347" y="0.0541176" />
+                            <point x="0.5" y="0.00941176" />
+                            <point x="0.928571" y="0.0329412" />
+                            <point x="0.530612" y="0.5" />
+                            <point x="0.545918" y="0.790588" />
+                            <point x="0.5" y="0.998824" />
+                            <point x="0.341837" y="0.842353" />
+                            <point x="0.227041" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="9" loop="1" name="jalan" pingpong="0" repeatcount="1" repeatto="0" sid="667386131013851" speed="15">
+                    <frame duration="1" hotspotX="0.501182" hotspotY="0.5" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\smp\jalan\jalan_1.png" />
+                    <frame duration="1" hotspotX="0.501259" hotspotY="0.5" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\smp\jalan\jalan_2.png" />
+                    <frame duration="1" hotspotX="0.501285" hotspotY="0.500586" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\smp\jalan\jalan_3.png" />
+                    <frame duration="1" hotspotX="0.501319" hotspotY="0.500575" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\smp\jalan\jalan_4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500597" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\smp\jalan\jalan_5.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\smp\jalan\jalan_6.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50059" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\smp\jalan\jalan_7.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500559" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\smp\jalan\jalan_8.png" />
+                    <frame duration="1" hotspotX="0.501171" hotspotY="0.5" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\smp\jalan\jalan_9.png" />
+                </animation>
+                <animation framecount="7" loop="1" name="lompat" pingpong="0" repeatcount="1" repeatto="0" sid="712724833120144" speed="12">
+                    <frame duration="1" hotspotX="0.50108" hotspotY="0.500668" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\smp\lompat\lompat1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50056" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\smp\lompat\lompat2.png" />
+                    <frame duration="1" hotspotX="0.50096" hotspotY="0.500573" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\smp\lompat\lompat3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500626" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\smp\lompat\lompat4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\smp\lompat\lompat5.png" />
+                    <frame duration="1" hotspotX="0.501266" hotspotY="0.500562" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\smp\lompat\lompat6.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500571" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\smp\lompat\lompat7.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bg_stage3" sid="376124161193864">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="224329758997482" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset background\bg stage 3\bg2_depan.png">
+                        <collision-poly>
+                            <point x="0.000406504" y="0.000765111" />
+                            <point x="0.999593" y="0.000765111" />
+                            <point x="0.999593" y="0.999235" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bembi3" sid="851543850557291">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="ScrollTo" sid="246888119171241">
+                    <behavior id="scrollto" />
+                </behavior-type>
+                <behavior-type name="Flash" sid="925633500061695">
+                    <behavior id="Flash" />
+                </behavior-type>
+                <behavior-type name="Platform" sid="978876595329082">
+                    <behavior id="Platform" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="diam" pingpong="0" repeatcount="1" repeatto="0" sid="940890579723276" speed="5">
+                    <frame duration="1" hotspotX="0.501312" hotspotY="0.5" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\sma\diam\diam.png">
+                        <collision-poly>
+                            <point x="0.11811" y="0.0535714" />
+                            <point x="0.498688" y="0.00952381" />
+                            <point x="0.926509" y="0.0333333" />
+                            <point x="0.519685" y="0.5" />
+                            <point x="0.535433" y="0.789286" />
+                            <point x="0.498688" y="0.99881" />
+                            <point x="0.317585" y="0.855952" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="9" loop="1" name="jalan" pingpong="0" repeatcount="1" repeatto="0" sid="466166415946750" speed="15">
+                    <frame duration="1" hotspotX="0.501199" hotspotY="0.5" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\sma\jalan\jalan1.png" />
+                    <frame duration="1" hotspotX="0.501279" hotspotY="0.5" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\sma\jalan\jalan2.png" />
+                    <frame duration="1" hotspotX="0.501305" hotspotY="0.50059" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\sma\jalan\jalan3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\sma\jalan\jalan4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\sma\jalan\jalan5.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500611" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\sma\jalan\jalan6.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50059" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\sma\jalan\jalan7.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500562" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\sma\jalan\jalan8.png" />
+                    <frame duration="1" hotspotX="0.501176" hotspotY="0.5" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\sma\jalan\jalan9.png" />
+                </animation>
+                <animation framecount="7" loop="1" name="lompat" pingpong="0" repeatcount="1" repeatto="0" sid="194875949974189" speed="12">
+                    <frame duration="1" hotspotX="0.501062" hotspotY="0.5" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\sma\lompat\lompat1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500559" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\sma\lompat\lompat2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500573" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\sma\lompat\lompat3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500623" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\sma\lompat\lompat4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500577" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\sma\lompat\lompat5.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500561" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\sma\lompat\lompat6.png" />
+                    <frame duration="1" hotspotX="0.500956" hotspotY="0.5" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset aktor\sma\lompat\lompat7.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="hati" sid="716053296400313">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="852455829656400" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500945" original-source="C:\Users\USER\Downloads\hati.png">
+                        <collision-poly>
+                            <point x="0.0775862" y="0.0850662" />
+                            <point x="0.5" y="0.1569" />
+                            <point x="0.924138" y="0.0831758" />
+                            <point x="0.956897" y="0.499055" />
+                            <point x="0.760345" y="0.73724" />
+                            <point x="0.5" y="0.996219" />
+                            <point x="0.236207" y="0.741021" />
+                            <point x="0.0362069" y="0.499055" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tembok" sid="374615924757722">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="781230997464485" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\USER\Downloads\tembok.png">
+                        <collision-poly>
+                            <point x="0.0111684" y="0.0878378" />
+                            <point x="0.5" y="0.00675676" />
+                            <point x="0.996564" y="0.027027" />
+                            <point x="0.978522" y="0.5" />
+                            <point x="0.998282" y="0.986486" />
+                            <point x="0.5" y="0.986486" />
+                            <point x="0.0128866" y="0.898649" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tanahBawah_stage3" sid="685364692014980">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Solid" sid="910159962878107">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\USER\Downloads\tembok.png" />
+        </object-type>
+        <object-type name="Sprite2" sid="339269774775144">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="969293376438641" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Touch" sid="759882018852246">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="bg_transparan" sid="384836772007928">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="rumah1" sid="449777536925106">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="396240554538011" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset pecah\bangunan.png">
+                        <collision-poly>
+                            <point x="0.24228" y="0.316049" />
+                            <point x="0.495249" y="0.174074" />
+                            <point x="0.700713" y="0.25679" />
+                            <point x="0.812352" y="0.455556" />
+                            <point x="0.812352" y="0.859259" />
+                            <point x="0.466746" y="0.949382" />
+                            <point x="0.167458" y="0.880247" />
+                            <point x="0.153207" y="0.504938" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="lantai" sid="832844491480011">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="234608411439689" speed="5">
+                    <frame duration="1" hotspotX="0.500435" hotspotY="0.50137" original-source="C:\Users\USER\Downloads\lantai2.png">
+                        <collision-poly>
+                            <point x="0.000870322" y="0.00273973" />
+                            <point x="0.99913" y="0.00273973" />
+                            <point x="0.99913" y="0.99726" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground3" sid="673779867330860">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\USER\Downloads\lantai2.png" />
+        </object-type>
+        <object-type name="tanahBawah_stage2" sid="468388381665112">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Solid" sid="312599515622852">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\USER\Downloads\lantai2.png" />
+        </object-type>
+        <object-type name="tanahAtas_stage2" sid="257513679264548">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="969492713780926" speed="5">
+                    <frame duration="1" hotspotX="0.50032" hotspotY="0.5" original-source="C:\Users\USER\Downloads\tumpukn.png">
+                        <collision-poly>
+                            <point x="0.000639795" y="0.0128205" />
+                            <point x="0.99936" y="0.0128205" />
+                            <point x="0.99936" y="0.987179" />
+                            <point x="0.000639795" y="0.987179" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="rumah2" sid="585928139016875">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="980677960075565" speed="5">
+                    <frame duration="1" hotspotX="0.500617" hotspotY="0.5" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset pecah\bngunan.png">
+                        <collision-poly>
+                            <point x="0.199753" y="0.207692" />
+                            <point x="0.499383" y="0.00128205" />
+                            <point x="0.800247" y="0.207692" />
+                            <point x="0.922318" y="0.5" />
+                            <point x="0.922318" y="0.919231" />
+                            <point x="0.499383" y="1" />
+                            <point x="0.107275" y="0.888462" />
+                            <point x="0.107275" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="papanScore" sid="261788099995558">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="815942232585636" speed="5">
+                    <frame duration="1" hotspotX="0.500343" hotspotY="0.5" original-source="D:\papanScore.png">
+                        <collision-poly>
+                            <point x="0.0198766" y="0.0265082" />
+                            <point x="0.499657" y="0" />
+                            <point x="0.980123" y="0.0265082" />
+                            <point x="1" y="0.5" />
+                            <point x="0.980123" y="0.973492" />
+                            <point x="0.499657" y="1" />
+                            <point x="0.0198766" y="0.973492" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="papan_ucapan" sid="396355575159623">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="582343265579793" speed="0">
+                    <frame duration="1" hotspotX="0.500187" hotspotY="0.5" original-source="D:\gameOver.png">
+                        <collision-poly>
+                            <point x="0.0153386" y="0.172269" />
+                            <point x="0.499813" y="0" />
+                            <point x="0.981669" y="0.205882" />
+                            <point x="0.851478" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0.499813" y="0.794118" />
+                            <point x="0.00299289" y="0.966387" />
+                            <point x="0.153012" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.500187" hotspotY="0.5" original-source="D:\stageClear.png">
+                        <collision-poly>
+                            <point x="0.0153386" y="0.172269" />
+                            <point x="0.499813" y="0" />
+                            <point x="0.981669" y="0.205882" />
+                            <point x="0.851478" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0.499813" y="0.794118" />
+                            <point x="0.00299289" y="0.966387" />
+                            <point x="0.153012" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="kanan" sid="458801811023870">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="162685475143567" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\kanan1.png">
+                        <collision-poly>
+                            <point x="0.145503" y="0.145503" />
+                            <point x="0.5" y="0" />
+                            <point x="0.854497" y="0.145503" />
+                            <point x="1" y="0.5" />
+                            <point x="0.854497" y="0.854497" />
+                            <point x="0.5" y="1" />
+                            <point x="0.145503" y="0.854497" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="kiri" sid="275537272160526">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="155374900597584" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\kiri1.png">
+                        <collision-poly>
+                            <point x="0.145503" y="0.145503" />
+                            <point x="0.5" y="0" />
+                            <point x="0.854497" y="0.145503" />
+                            <point x="1" y="0.5" />
+                            <point x="0.854497" y="0.854497" />
+                            <point x="0.5" y="1" />
+                            <point x="0.145503" y="0.854497" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="atas" sid="370193317931122">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="780642351180380" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\atas1.png">
+                        <collision-poly>
+                            <point x="0.145503" y="0.145503" />
+                            <point x="0.5" y="0" />
+                            <point x="0.854497" y="0.145503" />
+                            <point x="1" y="0.5" />
+                            <point x="0.854497" y="0.854497" />
+                            <point x="0.5" y="1" />
+                            <point x="0.145503" y="0.854497" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type global="1" name="restart" sid="149455314674878">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="300090924157150" speed="0">
+                    <frame duration="1" hotspotX="0.50039" hotspotY="0.500565" original-source="D:\restart.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="batas" sid="362793176212266">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="285504524549648">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="156216945962491" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\batas.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type global="1" name="nextLevel" sid="174016456951187">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="716097982117096" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500581" original-source="D:\play.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500581" original-source="D:\plaay2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bok" sid="181879845687598">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="232015407573921" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501608" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset pecah\bok.png">
+                        <collision-poly>
+                            <point x="0.00649351" y="0.00643087" />
+                            <point x="0.993506" y="0.00643087" />
+                            <point x="0.993506" y="0.993569" />
+                            <point x="0.00324675" y="0.996785" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bata" sid="293812616504716">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="623844395251301">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="603231420920263" speed="5">
+                    <frame duration="1" hotspotX="0.501859" hotspotY="0.505882" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset pecah\bata.png">
+                        <collision-poly>
+                            <point x="0.00371747" y="0.0117647" />
+                            <point x="0.996283" y="0.0117647" />
+                            <point x="0.825279" y="0.494118" />
+                            <point x="0.825279" y="0.447059" />
+                            <point x="0.498141" y="0.988235" />
+                            <point x="0.163569" y="0.482353" />
+                            <point x="0.163569" y="0.494118" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tanah2" sid="774936076083311">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="265986238827138">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="706618380387984" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset pecah\tanah.png">
+                        <collision-poly>
+                            <point x="0.035461" y="0.0632911" />
+                            <point x="0.5" y="0.0316456" />
+                            <point x="0.957447" y="0.0759494" />
+                            <point x="0.929078" y="0.5" />
+                            <point x="0.851064" y="0.734177" />
+                            <point x="0.5" y="0.987342" />
+                            <point x="0.131206" y="0.765823" />
+                            <point x="0.0319149" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="box" sid="597295730804548">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="548085348270822">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="637534315306761" speed="5">
+                    <frame duration="1" hotspotX="0.500768" hotspotY="0.501312" original-source="D:\DataR\Semester 6\p. Game\lomba compfest\desain\aset pecah\box.png">
+                        <collision-poly>
+                            <point x="0.0291859" y="0.0498688" />
+                            <point x="0.970814" y="0.0498688" />
+                            <point x="0.998464" y="0.498688" />
+                            <point x="0.976959" y="0.96063" />
+                            <point x="0.0230415" y="0.96063" />
+                            <point x="0.0015361" y="0.498688" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="darah" sid="180888376409558">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="788714551768754" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500945" original-source="C:\Users\USER\Downloads\hati.png">
+                        <collision-poly>
+                            <point x="0.0775862" y="0.0850662" />
+                            <point x="0.5" y="0.1569" />
+                            <point x="0.924138" y="0.0831758" />
+                            <point x="0.956897" y="0.499055" />
+                            <point x="0.760345" y="0.73724" />
+                            <point x="0.5" y="0.996219" />
+                            <point x="0.236207" y="0.741021" />
+                            <point x="0.0362069" y="0.499055" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families>
+        <family name="kontrol" plugin-id="Sprite" sid="954960809849332">
+            <members>
+                <member>atas</member>
+                <member>kanan</member>
+                <member>kiri</member>
+            </members>
+        </family>
+        <family name="tombol" plugin-id="Sprite" sid="474744284896522">
+            <members>
+                <member>nextLevel</member>
+                <member>restart</member>
+            </members>
+        </family>
+    </families>
+    <layout-folder>
+        <layout>Stage_1.xml</layout>
+        <layout>Stage_2.xml</layout>
+        <layout>Stage_3.xml</layout>
+        <layout>Menu.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>sheet 1.xml</event-sheet>
+        <event-sheet>sheet 2.xml</event-sheet>
+        <event-sheet>sheet_3.xml</event-sheet>
+        <event-sheet>Event sheet 2.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Keyboard" uid="8" />
+        <global-instance type="Touch" uid="76">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
